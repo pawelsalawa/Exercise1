@@ -38,7 +38,7 @@ import pl.com.salsoft.exercise1.model.TransferOrder;
 import pl.com.salsoft.exercise1.model.TransferStatus;
 import spark.Spark;
 
-public class TransferOrderControllerIT {
+public class TransferOrderControllerIntegrationTest {
 
 	private static final String URL_PATTERN = "http://localhost:%d/%s";
 	private static final String APPLICATION_JSON = "application/json";
