@@ -13,8 +13,7 @@
 ### With maven
 1. Clone repository
 2. `cd Exercise1`
-3. `mvn compile`
-4. `mvn exec:java`
+3. `mvn`
 
 ### With java
 1. Clone repository
