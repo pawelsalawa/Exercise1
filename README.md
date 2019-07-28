@@ -25,7 +25,7 @@
 
 ## Running tests
 
-3. `mvn test`
+1. `mvn test`
 
 ## REST API
 
