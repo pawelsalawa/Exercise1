@@ -20,7 +20,8 @@
 1. Clone repository
 2. `cd Exercise1`
 3. `mvn package`
-4. `java -jar target\exercise1-1.0.0-jar-with-dependencies.jar`
+4. `cd target`
+5. `java -jar exercise1-1.0.0-jar-with-dependencies.jar`
 
 ## Running tests
 
