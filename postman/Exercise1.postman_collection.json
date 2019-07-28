@@ -1,0 +1,171 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Exercise1",
+		"_postman_id": "b67fb4fa-6ea2-8850-0b9d-5ccbf012de7e",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "transfer get all",
+			"request": {
+				"url": "localhost:8000/transfer",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "transfer get single",
+			"request": {
+				"url": "localhost:8000/transfer/0",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "transfer post",
+			"request": {
+				"url": "localhost:8000/transfer",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"sourceAccount\": \"12345\",\n\t\"targetAccount\": \"09876\",\n\t\"amount\": 123.45,\n\t\"status\": \"PLANNED\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "transfer put",
+			"request": {
+				"url": "localhost:8000/transfer/0",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\": 15,\n\t\"sourceAccount\": \"12345\",\n\t\"targetAccount\": \"09876\",\n\t\"amount\": 123.45,\n\t\"status\": \"PLANNED\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "transfer patch",
+			"request": {
+				"url": "localhost:8000/transfer/0",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"status\": \"FINISHED\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "transfer delete",
+			"request": {
+				"url": "localhost:8000/transfer/0",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "transfer head",
+			"request": {
+				"url": "localhost:8000/transfer",
+				"method": "HEAD",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"createdOn\": null,\n\t\"sourceAccount\": \"12345\",\n\t\"targetAccount\": \"09876\",\n\t\"amount\": 123.45,\n\t\"status\": \"PLANNED\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "transfer options",
+			"request": {
+				"url": "localhost:8000/transfer",
+				"method": "OPTIONS",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"createdOn\": null,\n\t\"sourceAccount\": \"12345\",\n\t\"targetAccount\": \"09876\",\n\t\"amount\": 123.45,\n\t\"status\": \"PLANNED\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
