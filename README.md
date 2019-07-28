@@ -8,6 +8,9 @@
 - `SLF4j` as `Spark` expects SLF4j implementation provided.
 - `JUnit` and `Mockito` for unit & integration tests.
 
+## Configuration
+Listening HTTP port can be configured in `config.properties` file, located in `src/main/resources`.
+
 ## Running
 
 ### With maven
