@@ -69,6 +69,8 @@
 	</dependencies>
 
 	<build>
+		<defaultGoal>compile exec:java</defaultGoal>
+
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
